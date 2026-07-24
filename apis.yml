@@ -1,8 +1,14 @@
 aid: beside
 name: Beside
-description: 'Beside is a company surfaced as a portfolio company of eqt-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: software. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Beside (operated by Interface, Inc. / Heart Hands, Inc.) is an AI-powered
+  business phone system built for contractors, field teams, and small-to-medium businesses.
+  Its AI receptionist answers inbound calls 24/7, captures caller details, qualifies
+  and routes leads, books appointments, and produces automatic call summaries and
+  searchable transcripts, alongside team phone management, shared inboxes, roles and
+  permissions, unlimited US/Canada calls and texts, spam blocking, and integrations
+  with CRMs such as HubSpot, Attio, and Follow Up Boss (plus 7,000+ apps via Zapier).
+  Beside advertises forthcoming compatibility with MCP clients such as Claude and ChatGPT,
+  but publishes no public API today. Surfaced as a portfolio company of eqt-ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/beside/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,31 @@ x-backed-by:
 - eqt-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://beside.com/og/home.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Software
+- Communications
+- Voice
+- Artificial Intelligence
+- Receptionist
+- Telephony
+- SMB
+- CRM
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,27 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: 'https://www.beside.com/ '
+  url: https://www.beside.com
+- type: Pricing
+  url: https://www.beside.com/pricing
+- type: Blog
+  url: https://www.beside.com/blog
+- type: Support
+  url: https://help.beside.com/en/
+- type: Integrations
+  url: https://www.beside.com/integrations
+- type: SignUp
+  url: https://app.beside.com
+- type: TermsOfService
+  url: https://www.beside.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.beside.com/privacy-policy
+- type: LLMsTxt
+  url: llms/beside-llms.txt
+- type: DomainSecurity
+  url: security/beside-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
