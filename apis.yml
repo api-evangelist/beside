@@ -10,6 +10,9 @@ description: 'Beside (operated by Interface, Inc. / Heart Hands, Inc.) is an AI-
   Beside advertises forthcoming compatibility with MCP clients such as Claude and ChatGPT,
   but publishes no public API today. Surfaced as a portfolio company of eqt-ventures.'
 url: https://raw.githubusercontent.com/api-evangelist/beside/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Beside advertises forthcoming compatibility with MCP clients such as Claude and ChatGPT, but publishes no public API today."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
