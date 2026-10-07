@@ -1,0 +1,39 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.beside.com/pricing
+sources:
+- https://www.beside.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: per-call
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Part-time
+published: true
+note: Credit-based plans; monthly credits reset at renewal and do not roll over; purchased credits never
+  expire. Prices in USD, billed monthly.
+plan_count: 2
+currency: USD
+plans:
+- name: Part-time
+  price_text: $ 99 / month
+  price: 99
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 5,000 credits / month
+  overage: add 1,000 credits for $25
+- name: Full-time
+  price_text: $ 249.99 / month
+  price: 249.99
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 12,500 credits / month
+  overage: 1,000 for $25, 5,000 for $125, or 10,000 for $250
