@@ -37,3 +37,27 @@ plans:
   unit: credits
   included_quota: 12,500 credits / month
   overage: 1,000 for $25, 5,000 for $125, or 10,000 for $250
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - hybrid
+  units:
+  - credit
+  plans:
+  - name: Part-time
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - credit
+    periods:
+    - month
+  - name: Full-time
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - credit
+    periods:
+    - month
