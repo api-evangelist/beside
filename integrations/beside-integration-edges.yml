@@ -1,0 +1,425 @@
+generated: '2026-10-12'
+method: searched
+source:
+- https://zapier.com/apps/beside/integrations
+checked:
+- https://composio.dev/toolkits/beside
+- https://monid.ai/tools/beside
+- https://n8n.io/integrations/beside/
+- https://zapier.com/apps/beside/integrations
+summary: null
+marketplace_apps:
+- marketplace: zapier
+  channel: ipaas-listing
+  app: beside
+  url: https://zapier.com/apps/beside/integrations
+  external_url: https://beside.com/download
+  partner_tier: SILVER
+  triggers:
+  - key: call
+    label: Call
+  - key: capture
+    label: Capture
+  - key: lead
+    label: Lead
+  - key: message
+    label: Message
+  - key: voicemail
+    label: Voice Mail
+  - key: voicenote
+    label: Voice Note
+  actions: []
+  searches: []
+edges:
+- partner_name: Gmail
+  partner: gmail
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/gmail
+  direction: third-party
+  category: Email
+  partner_url: https://mail.google.com/
+- partner_name: Google Calendar
+  partner: google-calendar
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/google-calendar
+  direction: third-party
+  category: Calendar
+  partner_url: https://calendar.google.com/
+- partner_name: HubSpot
+  partner: hubspot
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/hubspot
+  direction: third-party
+  category: Marketing Automation
+  partner_url: http://www.hubspot.com/
+- partner_name: Jobber
+  partner: jobber
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/jobber
+  direction: third-party
+  category: Scheduling & Booking
+  partner_url: https://www.getjobber.com/plp/zapier?utm_source=Zapier&utm_medium=PLP
+- partner_name: LeadConnector
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/leadconnector
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://www.leadconnectorhq.com/
+- partner_name: Square
+  partner: square
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/square
+  direction: third-party
+  category: eCommerce
+  partner_url: https://squareup.com/t/cmtp_performance/pr_developers/d_partnerships/p_zapier/?route=
+- partner_name: Google Sheets
+  partner: google-sheets
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/google-sheets
+  direction: third-party
+  category: Google
+  partner_url: http://sheets.google.com/
+- partner_name: Calendly
+  partner: calendly
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/calendly
+  direction: third-party
+  category: Scheduling & Booking
+  partner_url: https://calendly.com/?utm_medium=partner&utm_source=zapier&utm_campaign=main_partner_page&utm_content=main_inbound_link
+- partner_name: Slack
+  partner: slack
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/slack
+  direction: third-party
+  category: Team Chat
+  partner_url: https://slack.com/
+- partner_name: Housecall Pro
+  partner: housecall-pro
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/housecall-pro
+  direction: third-party
+  category: Scheduling & Booking
+  partner_url: https://www.housecallpro.com/
+- partner_name: Notion
+  partner: notion
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/notion
+  direction: third-party
+  category: Task Management
+  partner_url: https://www.notion.so/
+- partner_name: Microsoft Outlook
+  partner: microsoft-outlook
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/microsoft-outlook
+  direction: third-party
+  category: Calendar
+  partner_url: https://outlook.live.com/
+- partner_name: Follow Up Boss
+  partner: follow-up-boss
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/follow-up-boss
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: http://www.followupboss.com/
+- partner_name: Cloze
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/cloze
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://www.cloze.com/
+- partner_name: Discord
+  partner: discord
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/discord
+  direction: third-party
+  category: Team Chat
+  partner_url: https://discordapp.com/
+- partner_name: Zoho CRM
+  partner: zoho-crm
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/zoho-crm
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://go.zoho.com/wOk
+- partner_name: Airtable
+  partner: airtable
+  partner_match: domain
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/airtable
+  direction: third-party
+  category: Databases
+  partner_url: https://airtable.com/
+- partner_name: Google Contacts
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/google-contacts
+  direction: third-party
+  category: Contact Management
+  partner_url: https://www.google.com/contacts/
+- partner_name: Google Tasks
+  partner: google-tasks
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/google-tasks
+  direction: third-party
+  category: Google
+  partner_url: https://google.com/
+- partner_name: Wix
+  partner: wix
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/wix
+  direction: third-party
+  category: Website Builders
+  partner_url: https://www.wix.com/
+- partner_name: Google Drive
+  partner: google-drive
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/google-drive
+  direction: third-party
+  category: File Management & Storage
+  partner_url: https://www.google.com/drive/
+- partner_name: Thryv
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/thryv
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: https://www.thryv.com/
+- partner_name: Agents
+  partner: agents
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/agents
+  direction: third-party
+  category: AI Agents
+  partner_url: https://zapier.com/agents
+- partner_name: Clulo
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/clulo
+  direction: third-party
+  category: Scheduling & Booking
+  partner_url: https://clulo.com/pricing
+- partner_name: GoDaddy CRM
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/godaddy-crm
+  direction: third-party
+  category: Contact Management
+  partner_url: https://www.godaddy.com/online-marketing/digital-marketing
+- partner_name: Zoho Invoice
+  partner: zoho-invoice
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/zoho-invoice
+  direction: third-party
+  category: Proposal & Invoice Management
+  partner_url: https://go.zoho.com/STD
+- partner_name: BONZO
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/bonzo
+  direction: third-party
+  category: CRM (Customer Relationship Management)
+  partner_url: http://www.getbonzo.com/
+- partner_name: SMS Alert
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/sms-alert
+  direction: third-party
+  category: Phone & SMS
+  partner_url: http://www.smsalert.co.in/
+- partner_name: Mailchimp
+  partner: mailchimp
+  partner_match: name-exact
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/mailchimp
+  direction: third-party
+  category: Marketing Automation
+  partner_url: https://mailchimp.com/
+- partner_name: WhatsApp Notifications
+  partner: null
+  partner_match: null
+  partner_candidate: null
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/whatsapp-notifications
+  direction: third-party
+  category: Communication
+  partner_url: null
+templates:
+- title: Send emails in Gmail for new calls in Beside
+  url: https://zapier.com/apps/beside/integrations/gmail/255617111/send-emails-in-gmail-for-new-calls-in-beside
+  apps:
+  - beside
+  - gmail
+- title: Send sms with SMS by Zapier for new calls in Beside
+  url: https://zapier.com/apps/beside/integrations/sms/255599576/send-sms-with-sms-by-zapier-for-new-calls-in-beside
+  apps:
+  - beside
+  - sms
+- title: Log new Beside calls in Follow Up Boss for every new call
+  url: https://zapier.com/apps/beside/integrations/follow-up-boss/255626660/log-new-beside-calls-in-follow-up-boss-for-every-new-call
+  apps:
+  - beside
+  - follow-up-boss
+- title: Create new HubSpot contacts from new calls in Beside
+  url: https://zapier.com/apps/beside/integrations/hubspot/255624540/create-new-hubspot-contacts-from-new-calls-in-beside
+  apps:
+  - beside
+  - hubspot
+- title: Create new Notion pages for every new Beside call
+  url: https://zapier.com/apps/beside/integrations/notion/255591291/create-new-notion-pages-for-every-new-beside-call
+  apps:
+  - beside
+  - notion
+- title: Send Slack messages for new calls in Beside
+  url: https://zapier.com/apps/beside/integrations/slack/255597928/send-slack-messages-for-new-calls-in-beside
+  apps:
+  - beside
+  - slack
+- title: Update LeadConnector contacts when new calls happen in Beside
+  url: https://zapier.com/apps/beside/integrations/leadconnector/255656794/update-leadconnector-contacts-when-new-calls-happen-in-beside
+  apps:
+  - beside
+  - leadconnector
+- title: Send direct messages in Slack for new calls in Beside
+  url: https://zapier.com/apps/beside/integrations/slack/255585080/send-direct-messages-in-slack-for-new-calls-in-beside
+  apps:
+  - beside
+  - slack
+- title: Send emails in Gmail for new leads in Beside
+  url: https://zapier.com/apps/beside/integrations/gmail/255594196/send-emails-in-gmail-for-new-leads-in-beside
+  apps:
+  - beside
+  - gmail
+- title: Create new kvCORE contacts from new Beside calls
+  url: https://zapier.com/apps/beside/integrations/kvcore/255646424/create-new-kvcore-contacts-from-new-beside-calls
+  apps:
+  - beside
+  - kvcore
+- title: Create new Jobber clients from Beside calls automatically
+  url: https://zapier.com/apps/beside/integrations/jobber/255651354/create-new-jobber-clients-from-beside-calls-automatically
+  apps:
+  - beside
+  - jobber
+- title: Create new Pipedrive leads from new Beside calls
+  url: https://zapier.com/apps/beside/integrations/pipedrive/255592238/create-new-pipedrive-leads-from-new-beside-calls
+  apps:
+  - beside
+  - pipedrive
+template_total: 93
