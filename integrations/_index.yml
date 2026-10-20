@@ -15,6 +15,7 @@
   evidence: https://zapier.com/apps/beside/integrations/gmail/255617111/send-emails-in-gmail-for-new-calls-in-beside
   template: https://zapier.com/apps/beside/integrations/gmail/255617111/send-emails-in-gmail-for-new-calls-in-beside
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: beside-log-new-beside-calls-in-follow-up-boss-for-every-new-call
@@ -29,6 +30,7 @@
   evidence: https://zapier.com/apps/beside/integrations/follow-up-boss/255626660/log-new-beside-calls-in-follow-up-boss-for-every-new-call
   template: https://zapier.com/apps/beside/integrations/follow-up-boss/255626660/log-new-beside-calls-in-follow-up-boss-for-every-new-call
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: beside-create-new-hubspot-contacts-from-new-calls-in-beside
@@ -43,6 +45,7 @@
   evidence: https://zapier.com/apps/beside/integrations/hubspot/255624540/create-new-hubspot-contacts-from-new-calls-in-beside
   template: https://zapier.com/apps/beside/integrations/hubspot/255624540/create-new-hubspot-contacts-from-new-calls-in-beside
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: beside-create-new-notion-pages-for-every-new-beside-call
@@ -57,6 +60,7 @@
   evidence: https://zapier.com/apps/beside/integrations/notion/255591291/create-new-notion-pages-for-every-new-beside-call
   template: https://zapier.com/apps/beside/integrations/notion/255591291/create-new-notion-pages-for-every-new-beside-call
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: beside-send-slack-messages-for-new-calls-in-beside
@@ -71,6 +75,7 @@
   evidence: https://zapier.com/apps/beside/integrations/slack/255597928/send-slack-messages-for-new-calls-in-beside
   template: https://zapier.com/apps/beside/integrations/slack/255597928/send-slack-messages-for-new-calls-in-beside
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: beside-update-leadconnector-contacts-when-new-calls-happen-in-beside
@@ -84,6 +89,7 @@
   evidence: https://zapier.com/apps/beside/integrations/leadconnector/255656794/update-leadconnector-contacts-when-new-calls-happen-in-beside
   template: https://zapier.com/apps/beside/integrations/leadconnector/255656794/update-leadconnector-contacts-when-new-calls-happen-in-beside
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: beside-send-direct-messages-in-slack-for-new-calls-in-beside
@@ -98,6 +104,7 @@
   evidence: https://zapier.com/apps/beside/integrations/slack/255585080/send-direct-messages-in-slack-for-new-calls-in-beside
   template: https://zapier.com/apps/beside/integrations/slack/255585080/send-direct-messages-in-slack-for-new-calls-in-beside
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: beside-send-emails-in-gmail-for-new-leads-in-beside
@@ -112,6 +119,7 @@
   evidence: https://zapier.com/apps/beside/integrations/gmail/255594196/send-emails-in-gmail-for-new-leads-in-beside
   template: https://zapier.com/apps/beside/integrations/gmail/255594196/send-emails-in-gmail-for-new-leads-in-beside
   source: template
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: beside-create-new-jobber-clients-from-beside-calls-automatically
@@ -126,274 +134,7 @@
   evidence: https://zapier.com/apps/beside/integrations/jobber/255651354/create-new-jobber-clients-from-beside-calls-automatically
   template: https://zapier.com/apps/beside/integrations/jobber/255651354/create-new-jobber-clients-from-beside-calls-automatically
   source: template
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-google-calendar
-  label: Google Calendar
-  partner: google-calendar
-  partner_name: Google Calendar
-  category: Calendar
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/google-calendar
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-square
-  label: Square
-  partner: square
-  partner_name: Square
-  category: eCommerce
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/square
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-google-sheets
-  label: Google Sheets
-  partner: google-sheets
-  partner_name: Google Sheets
-  category: Google
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/google-sheets
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-calendly
-  label: Calendly
-  partner: calendly
-  partner_name: Calendly
-  category: Scheduling & Booking
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/calendly
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-housecall-pro
-  label: Housecall Pro
-  partner: housecall-pro
-  partner_name: Housecall Pro
-  category: Scheduling & Booking
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/housecall-pro
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-microsoft-outlook
-  label: Microsoft Outlook
-  partner: microsoft-outlook
-  partner_name: Microsoft Outlook
-  category: Calendar
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/microsoft-outlook
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-cloze
-  label: Cloze
-  partner_name: Cloze
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/cloze
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-discord
-  label: Discord
-  partner: discord
-  partner_name: Discord
-  category: Team Chat
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/discord
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-zoho-crm
-  label: Zoho CRM
-  partner: zoho-crm
-  partner_name: Zoho CRM
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/zoho-crm
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-airtable
-  label: Airtable
-  partner: airtable
-  partner_name: Airtable
-  category: Databases
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/airtable
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-google-contacts
-  label: Google Contacts
-  partner_name: Google Contacts
-  category: Contact Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/google-contacts
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-google-tasks
-  label: Google Tasks
-  partner: google-tasks
-  partner_name: Google Tasks
-  category: Google
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/google-tasks
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-wix
-  label: Wix
-  partner: wix
-  partner_name: Wix
-  category: Website Builders
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/wix
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-google-drive
-  label: Google Drive
-  partner: google-drive
-  partner_name: Google Drive
-  category: File Management & Storage
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/google-drive
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-thryv
-  label: Thryv
-  partner_name: Thryv
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/thryv
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-agents
-  label: Agents
-  partner: agents
-  partner_name: Agents
-  category: AI Agents
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/agents
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-clulo
-  label: Clulo
-  partner_name: Clulo
-  category: Scheduling & Booking
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/clulo
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-godaddy-crm
-  label: GoDaddy CRM
-  partner_name: GoDaddy CRM
-  category: Contact Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/godaddy-crm
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-zoho-invoice
-  label: Zoho Invoice
-  partner: zoho-invoice
-  partner_name: Zoho Invoice
-  category: Proposal & Invoice Management
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/zoho-invoice
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-bonzo
-  label: BONZO
-  partner_name: BONZO
-  category: CRM (Customer Relationship Management)
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/bonzo
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-sms-alert
-  label: SMS Alert
-  partner_name: SMS Alert
-  category: Phone & SMS
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/sms-alert
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-mailchimp
-  label: Mailchimp
-  partner: mailchimp
-  partner_name: Mailchimp
-  category: Marketing Automation
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/mailchimp
-  source: edge
-  status: pending-partner-spec
-  arazzo: null
-- slug: beside-whatsapp-notifications
-  label: WhatsApp Notifications
-  partner_name: WhatsApp Notifications
-  category: Communication
-  type: marketplace
-  marketplace: zapier
-  channel: ipaas-usage
-  evidence: https://zapier.com/apps/beside/integrations/whatsapp-notifications
-  source: edge
+  relationship: ipaas-bridge
   status: pending-partner-spec
   arazzo: null
 - slug: beside-zapier
@@ -420,4 +161,297 @@
     beta: false
     builder: unknown (not in the directory record)
   status: not-a-workflow
+  arazzo: null
+- slug: beside-google-calendar
+  label: Google Calendar
+  partner: google-calendar
+  partner_name: Google Calendar
+  category: Calendar
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/google-calendar
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-square
+  label: Square
+  partner: square
+  partner_name: Square
+  category: eCommerce
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/square
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-google-sheets
+  label: Google Sheets
+  partner: google-sheets
+  partner_name: Google Sheets
+  category: Google
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/google-sheets
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-calendly
+  label: Calendly
+  partner: calendly
+  partner_name: Calendly
+  category: Scheduling & Booking
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/calendly
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-housecall-pro
+  label: Housecall Pro
+  partner: housecall-pro
+  partner_name: Housecall Pro
+  category: Scheduling & Booking
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/housecall-pro
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-google-drive
+  label: Google Drive
+  partner: google-drive
+  partner_name: Google Drive
+  category: File Management & Storage
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/google-drive
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-microsoft-outlook
+  label: Microsoft Outlook
+  partner: microsoft-outlook
+  partner_name: Microsoft Outlook
+  category: Calendar
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/microsoft-outlook
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-cloze
+  label: Cloze
+  partner_name: Cloze
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/cloze
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-discord
+  label: Discord
+  partner: discord
+  partner_name: Discord
+  category: Team Chat
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/discord
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-zoho-crm
+  label: Zoho CRM
+  partner: zoho-crm
+  partner_name: Zoho CRM
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/zoho-crm
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-airtable
+  label: Airtable
+  partner: airtable
+  partner_name: Airtable
+  category: Databases
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/airtable
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-google-contacts
+  label: Google Contacts
+  partner: google
+  partner_name: Google Contacts
+  category: Contact Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/google-contacts
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-wix
+  label: Wix
+  partner: wix
+  partner_name: Wix
+  category: Website Builders
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/wix
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-google-tasks
+  label: Google Tasks
+  partner: google-tasks
+  partner_name: Google Tasks
+  category: Google
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/google-tasks
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-thryv
+  label: Thryv
+  partner_name: Thryv
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/thryv
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-agents
+  label: Agents
+  partner: agents
+  partner_name: Agents
+  category: AI Agents
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/agents
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-clulo
+  label: Clulo
+  partner_name: Clulo
+  category: Scheduling & Booking
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/clulo
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-godaddy-crm
+  label: GoDaddy CRM
+  partner: godaddy
+  partner_name: GoDaddy CRM
+  category: Contact Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/godaddy-crm
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-zoho-invoice
+  label: Zoho Invoice
+  partner: zoho-invoice
+  partner_name: Zoho Invoice
+  category: Proposal & Invoice Management
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/zoho-invoice
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-bonzo
+  label: BONZO
+  partner_name: BONZO
+  category: CRM (Customer Relationship Management)
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/bonzo
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-sms-alert
+  label: SMS Alert
+  partner_name: SMS Alert
+  category: Phone & SMS
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/sms-alert
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-mailchimp
+  label: Mailchimp
+  partner: mailchimp
+  partner_name: Mailchimp
+  category: Marketing Automation
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/mailchimp
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
+  arazzo: null
+- slug: beside-whatsapp-notifications
+  label: WhatsApp Notifications
+  partner_name: WhatsApp Notifications
+  category: Communication
+  type: marketplace
+  marketplace: zapier
+  channel: ipaas-usage
+  evidence: https://zapier.com/apps/beside/integrations/whatsapp-notifications
+  source: edge
+  relationship: ipaas-bridge
+  status: pending-partner-spec
   arazzo: null
