@@ -8,6 +8,13 @@ checked:
 - https://n8n.io/integrations/beside/
 - https://zapier.com/api/v4/apps/
 - https://zapier.com/apps/beside/integrations
+- https://a16z.com/portfolio/
+- https://www.battery.com/company/
+- https://www.battery.com/wp-admin/admin-ajax.php
+- https://www.indexventures.com/companies/
+- https://www.sequoiacap.com/our-companies/
+- https://www.sequoiacap.com/sitemap.xml
+- hubspot/integrations/hubspot-integration-edges.yml
 summary: null
 marketplace_apps:
 - marketplace: zapier
@@ -417,6 +424,50 @@ edges:
   direction: third-party
   category: Communication
   partner_url: null
+- partner_name: Index Ventures
+  partner: index-ventures
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.indexventures.com/companies/beside/
+  category: vc portfolio participation
+  contract_reference:
+    register: Index Ventures companies (indexventures.com/companies/)
+    standard: null
+    spec_file: null
+    role: vc-portfolio-company
+    registered_name: Beside
+    register_id: https://www.indexventures.com/companies/beside/
+    register_country: null
+    register_website: http://beside.com
+    matched_domain: beside.com
+    matched_by: domain
+    signal_note: 'participation only: the venture firm''s own published portfolio lists the company (investment);
+      an ownership and participation record, not conformance or certification'
+    detected_by: sweep-vc-portfolios.py
+    detected: '2026-10-21'
+    sector: aiml, business-applications
+  detected_by: sweep-vc-portfolios.py
+  first_seen: '2026-10-21'
+- partner_name: HubSpot (own)
+  partner: hubspot
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://ecosystem.hubspot.com/marketplace/listing/beside
+  mirror_of: hubspot/integrations/hubspot-integration-edges.yml
+  apps:
+  - Beside
+  listing_count: 1
+  detected: '2026-10-21'
+  detected_by: mirror-platform-listings.py
+  category: CALLING
 templates:
 - title: Send emails in Gmail for new calls in Beside
   url: https://zapier.com/apps/beside/integrations/gmail/255617111/send-emails-in-gmail-for-new-calls-in-beside
